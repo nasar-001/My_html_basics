@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boyzz trip form </title>
+    <style>*{
+        margin: 4px;
+      }
+      </style>
+</head>
+<body >
+    <h1 id="title"> Boyzz trip Form </h1>
+    <form id="survey-form"style="text-align: left;">
+    <div class="form-control">
+        <label for="name" id="label-name">
+        Name
+        </label>
+        <input type="text" id="name" placeholder="Enter your name" />
+    </div>
+    <div class="form-control">
+        <label for="email" id="label-email">
+        Email
+        </label>
+        <input type="email" id="email" placeholder="Enter your email" />
+    </div>
+    <div class="form-control">
+        <label for="age" id="label-age">
+        Age
+        </label>
+        <input type="number" id="age" placeholder="Enter your age" />
+    </div>
+    <div class="form-control">
+        <label for="role" id="label-role">
+        Whats your role in trip ?
+        </label>
+        <select name="role" id="role">
+        <option value="student">Select Option</option>
+        <option value="student">Driver</option>
+        <option value="intern">Manager</option>
+        <option value="professional">Entertainer</option>
+        <option value="other">Chef / Cook</option>
+        <option value="other">Camera Man</option>
+        </select>
+    </div>
+    <div class="form-control">
+        <label id="label-attendance">
+        Are you willing to join the trip?
+        </label>
+        <label for="attend-1" id="label-attend-1">
+        <input type="radio" id="attend-1" name="attend">Yes</input>
+        </label>
+        <label for="attend-2" id="label-attend-2">
+        <input type="radio" id="attend-2" name="attend">No</input>
+        </label>
+    </div>
+    <div class="form-control">
+        <label>Choose State to explore?</label>
+        <br>
+        <label for="inp-1">
+        <input type="checkbox" name="inp">Karnataka</input>
+        </label>
+        <br>
+        <label for="inp-2">
+        <input type="checkbox" name="inp">Kerala</input>
+        </label>
+        <br>
+        <label for="inp-3">
+        <input type="checkbox" name="inp">Telangana</input>
+        </label>
+        <br>
+        <label for="inp-4">
+        <input type="checkbox" name="inp">Goa</input>
+        </label>
+        <br>
+        <label for="inp-5">
+        <input type="checkbox" name="inp">Jammu & Kashmir</input>
+        </label>
+        <br>
+        <label for="inp-6">
+        <input type="checkbox" name="inp">Andaman & Nicobar</input>
+        </label>
+    </div>
+
+    <div class="form-control">
+        <label for="comment">
+        Any comments or suggestions
+        </label>
+        <textarea name="comment" id="comment" placeholder="Enter your comment here"></textarea>
+    </div>
+    <div class="button">
+        <button type="reset" value="reset" id="reset">
+        Reset
+        </button>
+        <button type="submit" value="submit" id="submit">
+        Submit
+        </button>
+    </div>
+    </form>
+</body>
+</html>
